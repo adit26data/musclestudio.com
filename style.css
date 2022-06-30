@@ -1,8 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
 html {
+    content: '';
     background: url('https://wallpapercave.com/wp/wp2832101.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
 }
 
 
