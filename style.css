@@ -32,6 +32,7 @@ html {
     display: flex;
     width: fit-content;
     height: 50px;
+    z-index: 1;
     position: relative;
     top: -153px;
     left: 400px;
@@ -850,7 +851,7 @@ form {
     .container {
         position: sticky;
         width: 70%;
-        margin-top: -7px;
+        margin-top: -5px;
 
     }
 
