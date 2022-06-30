@@ -1,9 +1,12 @@
 html {
+    top:-100px;
     background: url('https://wallpapercave.com/wp/wp2832101.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    overflow-y:hidden;
+    overflow-y:none;
+    margin:0;
+    padding:0;
 }
 
 
