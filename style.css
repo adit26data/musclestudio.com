@@ -32,6 +32,9 @@ html {
     display: flex;
     width: fit-content;
     height: 50px;
+    position: relative;
+    top: -153px;
+    left: 400px;
 }
 
 .navbar ul {
