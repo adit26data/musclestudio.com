@@ -212,6 +212,10 @@ form {
 }
 
 @media screen and (max-width:1440px) {
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -273,6 +277,10 @@ form {
 }
 
 @media screen and (max-width:1400px) {
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -334,6 +342,10 @@ form {
 }
 
 @media screen and (max-width:980px) {
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -397,6 +409,10 @@ form {
 }
 
 @media screen and (min-width:799) and (max-width:850px) {
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -460,6 +476,10 @@ form {
 }
 
 @media screen and (max-width:750px) {
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -522,7 +542,12 @@ form {
 
 }
 
-@media screen and (max-width:615px) {
+@media screen and (max-width:615px) 
+{ 
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -585,7 +610,12 @@ form {
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px)
+{
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -673,7 +703,12 @@ form {
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:400px) 
+{
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -849,7 +884,12 @@ form {
 
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:360px) 
+{
+    html {
+        background-size: cover;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
