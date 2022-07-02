@@ -344,7 +344,71 @@ form {
     }
 
 }
+@media screen and (max-width:1360px) {
+    html {
+        max-width: max-content;
+        max-height: max-content;
+    }
 
+    #welcome-tag {
+        width: 191px;
+        margin: auto;
+
+    }
+
+    #page-title {
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .container {
+        position: relative;
+        width: 70%;
+        margin-top: 145px;
+
+    }
+
+    .formcontainer {
+        width: 100%;
+        height: 50%;
+        padding: 1px;
+    }
+
+    .form-group input {
+        padding: 2px;
+        margin: 15px auto;
+        width: 80%;
+    }
+
+    .btn {
+        top: -4px;
+        left: 322px;
+    }
+
+    .btn2 {
+        width: 30%;
+        top: 810px;
+        left: 128px;
+    }
+
+    .navbar {
+        position: relative;
+        top: -154px;
+        left: 336px;
+        width: 558px;
+        height: 63px;
+
+    }
+
+    #end-title {
+        display: visible;
+    }
+
+    .serach input {
+        width: fit-content;
+    }
+
+}
 @media screen and (max-width:980px) {
     html {
         max-width: max-content;
