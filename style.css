@@ -1,14 +1,16 @@
 html {
-    top: -100px;
-    background: url('https://wallpapercave.com/wp/wp2832101.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp2832101.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
     overflow-y: none;
     margin: 0;
     padding: 0;
-    size-adjust: auto;
+    max-width: 100%;
+    max-height: 110%;
 }
+
+
 .build {
     border-radius: 300px;
     width: 90px;
@@ -213,7 +215,8 @@ form {
 
 @media screen and (max-width:1440px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -278,7 +281,8 @@ form {
 
 @media screen and (max-width:1400px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -318,7 +322,7 @@ form {
 
     .btn2 {
         width: 30%;
-        top: 772px;
+        top: 810px;
         left: 128px;
     }
 
@@ -343,7 +347,8 @@ form {
 
 @media screen and (max-width:980px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -408,9 +413,10 @@ form {
 
 }
 
-@media screen and (min-width:799) and (max-width:850px) {
+@media screen and (max-width:850px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -477,7 +483,8 @@ form {
 
 @media screen and (max-width:750px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -542,10 +549,10 @@ form {
 
 }
 
-@media screen and (max-width:615px) 
-{ 
+@media screen and (max-width:615px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -610,10 +617,10 @@ form {
 
 }
 
-@media screen and (max-width:500px)
-{
+@media screen and (max-width:500px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -703,10 +710,10 @@ form {
 
 }
 
-@media screen and (max-width:400px) 
-{
+@media screen and (max-width:400px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -797,6 +804,11 @@ form {
 }
 
 @media screen and (max-width:360px) {
+    html {
+        max-width: max-content;
+        max-height: max-content;
+    }
+
     #welcome-tag {
         width: 191px;
         margin: auto;
@@ -884,10 +896,10 @@ form {
 
 }
 
-@media screen and (max-width:360px) 
-{
+@media screen and (max-width:360px) {
     html {
-        background-size: cover;
+        max-width: max-content;
+        max-height: max-content;
     }
 
     #welcome-tag {
@@ -907,6 +919,100 @@ form {
         position: sticky;
         width: 70%;
         margin-top: -5px;
+
+    }
+
+    .formcontainer {
+        width: 100%;
+        height: 50%;
+        padding: 1px;
+    }
+
+    .form-group input {
+        padding: 2px;
+        margin: 15px auto;
+        width: 80%;
+    }
+
+    .btn {
+        top: -8px;
+        left: 91px;
+    }
+
+    .btn2 {
+        width: 30%;
+        top: 576px;
+        left: 128px;
+    }
+
+    .hamburger {
+        visibility: visible;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .responsive {
+        display: absolute;
+        top: 0;
+        height: auto;
+        width: 100vw;
+    }
+
+    .responsive ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: fit-content;
+        width: 100%;
+        list-style: none;
+    }
+
+    .responsive ul li {
+        width: 50%;
+        text-align: center;
+        margin: 5px auto;
+        text-decoration: none;
+    }
+
+    .responsive ul li a {
+        text-decoration: none;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #end-title {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:330px) {
+
+    html {
+        max-width: max-content;
+        max-height: max-content;
+    }
+
+    #welcome-tag {
+        width: 191px;
+        margin: auto;
+
+    }
+
+    #page-title {
+        width: 50%;
+        font-size: 12px;
+    }
+
+
+
+    .container {
+        position: sticky;
+        width: 70%;
+        margin-top: 5px;
 
     }
 
